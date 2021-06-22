@@ -1,0 +1,66 @@
+body,ul,ol,dl,li,dd,p,h1,h2,h3,h4,h5,h6,input,textarea,hr,div,em,strong,span{
+    margin:0;
+    padding:0;
+  }
+  body{
+    font-family: "微软雅黑";
+    
+  }
+  .ql-editor li:not(.ql-direction-rtl)::before {
+    margin-left: -1.5em;
+    margin-right: 1.8em!important;
+    text-align: right;
+}
+  html{
+    background:rgba(242,242,242,1);
+  
+  }
+  .all-style-bgc{
+    background:rgba(242,242,242,1);
+  }
+  ul,ol{
+    list-style-type: none;
+  }
+  a{
+    text-decoration: none;
+  }
+  img{
+    border: none;
+  }
+  .clear{
+    clear:both;
+  }
+ .el-tabs__item {
+    font-size: 16px;
+    font-family: PingFangSC-Medium, PingFang SC;
+    font-weight: 500;
+    color: rgba(102, 102, 102, 1)!important;
+    padding: 0;
+    margin: 0 20px;
+  }
+ .is-active{
+    color: red !important;
+    border-bottom: 2px solid #DD2126;
+  }
+ .el-tabs__active-bar{
+    display: none;
+  }
+  .smallBox{
+    cursor:pointer;
+  }
+ .xh{
+  border-bottom: 1px solid #E8E8E8;
+   width: 1080px;
+ margin-bottom: 23px;
+   
+ }
+
+ .el-pagination.is-background .el-pager li:not(.disabled).active {
+  background-color: red;
+  color: #FFF;
+}
+
+
+.ql-container {
+  border: 0 !important;
+}
